@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://dgger3ljex883"]
+[gd_scene load_steps=3 format=3 uid="uid://dgger3ljex883"]
+
+[ext_resource type="Texture2D" uid="uid://brcwxk1yw01b7" path="res://Sprites/mega_comerade1.png" id="1_1u8u7"]
+[ext_resource type="Texture2D" uid="uid://d03fhto8qkph" path="res://Sprites/mega_comerade0.png" id="2_3bp74"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="MegaComerade1" type="Sprite2D" parent="."]
+position = Vector2(106, 274)
+scale = Vector2(2, 2)
+texture = ExtResource("1_1u8u7")
+
+[node name="MegaComerade0" type="Sprite2D" parent="."]
+position = Vector2(307, 212)
+scale = Vector2(2, 2)
+texture = ExtResource("2_3bp74")
