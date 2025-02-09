@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7yxdrqe4ehp4"
-path="res://.godot/imported/mega_comerade2.png-898682f9b73ba311c5382b62d7d495d5.ctex"
+uid="uid://bfvq5eac7fve2"
+path="res://.godot/imported/mega_comerade_sheet6.png-a32b6ee5f88cb7eff5190a503499e582.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/mega_comerade2.png"
-dest_files=["res://.godot/imported/mega_comerade2.png-898682f9b73ba311c5382b62d7d495d5.ctex"]
+source_file="res://Sprites/mega_comerade_sheet6.png"
+dest_files=["res://.godot/imported/mega_comerade_sheet6.png-a32b6ee5f88cb7eff5190a503499e582.ctex"]
 
 [params]
 

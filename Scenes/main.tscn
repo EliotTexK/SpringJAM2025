@@ -1,16 +1,58 @@
-[gd_scene load_steps=3 format=3 uid="uid://dgger3ljex883"]
+[gd_scene load_steps=10 format=3 uid="uid://dgger3ljex883"]
 
-[ext_resource type="Texture2D" uid="uid://brcwxk1yw01b7" path="res://Sprites/mega_comerade1.png" id="1_1u8u7"]
-[ext_resource type="Texture2D" uid="uid://d03fhto8qkph" path="res://Sprites/mega_comerade0.png" id="2_3bp74"]
+[ext_resource type="Texture2D" uid="uid://bk5xp6fsnfgy1" path="res://Sprites/mega_comerade_sheet1.png" id="1_wn2wj"]
+[ext_resource type="Texture2D" uid="uid://oske7s1j6f5w" path="res://Sprites/mega_comerade_sheet2.png" id="2_8kqip"]
+[ext_resource type="Texture2D" uid="uid://dhk5omqxtc73n" path="res://Sprites/mega_comerade_sheet4.png" id="3_hp87v"]
+[ext_resource type="Texture2D" uid="uid://cy760gwg0a0lg" path="res://Sprites/mega_comerade_sheet3.png" id="3_w28c3"]
+[ext_resource type="Texture2D" uid="uid://bqhkpwbmf1y4r" path="res://Sprites/mega_comerade_sheet5.png" id="4_mdl3s"]
+[ext_resource type="Texture2D" uid="uid://bfvq5eac7fve2" path="res://Sprites/mega_comerade_sheet6.png" id="5_qopvs"]
+[ext_resource type="Texture2D" uid="uid://bcd7n8r08a6px" path="res://Sprites/mega_comerade_sheet7.png" id="6_mcac3"]
+[ext_resource type="Texture2D" uid="uid://bhsgh5t3ally3" path="res://Sprites/mega_comerade_sheet8.png" id="8_0vf8h"]
+[ext_resource type="Texture2D" uid="uid://b3jgpl0xguoth" path="res://Sprites/mega_comerade_sheet9.png" id="9_b40ho"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="MegaComerade1" type="Sprite2D" parent="."]
-position = Vector2(106, 274)
+[node name="MegaComeradeSheet2" type="Sprite2D" parent="."]
+position = Vector2(323, 130)
 scale = Vector2(2, 2)
-texture = ExtResource("1_1u8u7")
+texture = ExtResource("2_8kqip")
 
-[node name="MegaComerade0" type="Sprite2D" parent="."]
-position = Vector2(307, 212)
+[node name="MegaComeradeSheet3" type="Sprite2D" parent="."]
+position = Vector2(597, 99)
 scale = Vector2(2, 2)
-texture = ExtResource("2_3bp74")
+texture = ExtResource("3_w28c3")
+
+[node name="MegaComeradeSheet4" type="Sprite2D" parent="."]
+position = Vector2(919, 44)
+scale = Vector2(2, 2)
+texture = ExtResource("3_hp87v")
+
+[node name="MegaComeradeSheet5" type="Sprite2D" parent="."]
+position = Vector2(885, 456)
+scale = Vector2(2, 2)
+texture = ExtResource("4_mdl3s")
+
+[node name="MegaComeradeSheet6" type="Sprite2D" parent="."]
+position = Vector2(744, 333)
+scale = Vector2(2, 2)
+texture = ExtResource("5_qopvs")
+
+[node name="MegaComeradeSheet7" type="Sprite2D" parent="."]
+position = Vector2(937, 279)
+scale = Vector2(2, 2)
+texture = ExtResource("6_mcac3")
+
+[node name="MegaComeradeSheet1" type="Sprite2D" parent="."]
+position = Vector2(115, 133)
+scale = Vector2(2, 2)
+texture = ExtResource("1_wn2wj")
+
+[node name="MegaComeradeSheet8" type="Sprite2D" parent="."]
+position = Vector2(466, 387)
+scale = Vector2(2, 2)
+texture = ExtResource("8_0vf8h")
+
+[node name="MegaComeradeSheet9" type="Sprite2D" parent="."]
+position = Vector2(205, 496)
+scale = Vector2(2, 2)
+texture = ExtResource("9_b40ho")
